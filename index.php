@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <h1>شعر تصادفی از گنجور</h1>
+        <h1>شعر تصادفی</h1>
         <button onclick="getNewRandomPoem()">دریافت شعر جدید</button>
         <div id="poem-box">اینجا شعر نمایش داده می‌شود</div>
 
