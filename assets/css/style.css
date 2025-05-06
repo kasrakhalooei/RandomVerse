@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #f5f7fa;
+    text-align: center;
+    padding: 50px 20px;
+    color: #333;
+    direction: rtl;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 12px 24px;
+    background-color: #008cba;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #005f75;
+}
+
+#poem-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    color: #222;
+    min-height: 120px;
+}
