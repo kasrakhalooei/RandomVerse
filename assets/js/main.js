@@ -2,7 +2,7 @@ function getNewRandomPoem() {
     const box = document.getElementById('poem-box');
     box.innerText = 'در حال بارگذاری...';
 
-    fetch('https:// c.ganjoor.net/beyt.php')
+    fetch('https://c.ganjoor.net/beyt.php')
     // fetch('https://api.allorigins.win/raw?url=https://ganjoor.net/random')
         .then(res => res.text())
         .then(html => {
